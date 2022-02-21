@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games-HyperFizzics</title>
+    <!-----------------font-family: 'Grandstander', cursive;------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-----------------font-family: 'Grandstander', cursive;------------------------------->
+    <!----------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------->
+    <!-----------------font-family: Inter, Arial, Helvetica, sans-serif;---------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!----------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------->
+    <!-----------------font-family: Inter, Arial, Helvetica, sans-serif;---------------------->
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/game1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <!------------------------------------Navigation-------------------------------------->
+  <body>
+    <div class="nav-white-line">
+      <header>
+        <nav class="nav collapsible">
+          <a class="nav__brand" href="/"
+            ><img src="/image/doc-icon.png" alt=""
+          /></a>
+          <svg class="icon icon--big icon--white nav__toggler">
+            <use href="/image/sprite.svg#menu"></use>
+          </svg>
+          <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="/index.html">Home</a></li>
+            <li class="nav__item">
+              <a href="/company/nerd.html">Nerd News</a>
+            </li>
+            <li class="nav__item"><a href="/company/faq.html">FAQ</a></li>
+            <li class="nav__item">
+              <a href="/company/geek.html">HyperFotos</a>
+            </li>
+            <li class="nav__item">
+              <a href="/company/geek.html">Geek Boutique</a>
+            </li>
+            <li class="nav__item">
+              <a href="/company/geek.html">Breakroom Discount</a>
+            </li>
+            <li class="nav__item">
+              <a href="/company/geek.html">Sponsor Ship</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!------------------------------------Game1-------------------------------------->
+    <div>
+      <div class="game1-group">
+        <p class="game1-group__content">
+          What movie was this car seen in?
+        </p>
+        <div>
+          <input type="radio" name="game1" id="fox" />
+          <labelfor="fox">Knight Rider 2000</label>
+        </div>
+        <div>
+          <input type="radio" name="game1" id="bateman" />
+          <label for="bateman">Extraction</label>
+        </div>
+        <div>
+          <input type="radio" name="game1" id="goldberg" />
+          <label for="goldberg">Back to the future</label>
+        </div>
+      </div>
+      <div class="game1-group-image">
+        <img class="game1-image" src="/image/game2r.jpg" alt="Back to the Future" />
+      </div>
+      <div class="game1-btn">
+        <a href="/company/game1.html"><button>Previous</button></a>
+        <a href="/company/game3.html">
+          <button>Next</button>
+        </a>
+      </div>
+    </div>
+    <!------------------------------------JavaScript Only-------------------------------------->
+
+    <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -27,7 +27,7 @@ body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
-  background: #b1a7a9;
+  background: url(/image/confetti-doodles.svg);
   color: var(--color-headings);
 }
 h1,
@@ -208,10 +208,9 @@ a {
 
 @media screen and (min-width: 768px) {
   .nav {
-    position: fixed;
     width: 100%;
     z-index: 999;
-    opacity: 0.8;
+    opacity: 1;
   }
   .nav__toggler {
     display: none;
@@ -219,12 +218,21 @@ a {
   .nav__list {
     width: auto;
     display: flex;
-    font-size: 2rem;
+    font-size: 1rem;
     max-height: 100%;
     opacity: 1;
   }
   .nav__item {
     border: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav__list {
+    width: auto;
+    display: flex;
+    font-size: 1.5rem;
+    max-height: 100%;
+    opacity: 1;
   }
 }
 /*Defaults for the Navigation---------------------------------------*/
@@ -345,54 +353,31 @@ a {
 }
 /*Defaults------------------------------------------------------*/
 /*Defaults------------------------------------------------------*/
-
-/*faq-header---------------------------------------------------*/
-.faq__header {
-  margin-top: 200px;
+.game1-group {
+  margin: 3rem;
+  background: #fff;
   padding: 1rem;
+  border-radius: 10px;
 }
-.faq__heading {
-  text-align: center;
+.game1-image {
+  max-width: 300px;
   margin: 1rem;
-  padding: 1rem;
 }
-.faq--container-btn {
+.game1-btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 3rem;
+}
+.game1-group-image {
   display: flex;
   justify-content: center;
 }
-/*faq-image---------------------------------------------------*/
-.faq--image {
-  justify-items: center;
-  gap: 10px;
-}
-.faq--image > img {
-  max-width: 500px;
-  max-height: 500px;
-  width: 100%;
-}
-
-/*faq-intro---------------------------------------------------*/
-.faq--intro__heading {
-  padding: 1rem;
-  margin: 1rem;
-  text-align: center;
-}
-.faq--intro__content {
-  margin: 1rem;
-  padding: 1rem;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-  .faq--intro__content {
-    margin: 2rem;
-    padding: 2rem;
-    font-size: 2rem;
-  }
-}
 @media screen and (min-width: 1024px) {
-  .faq--intro__content {
-    text-align: left;
+  .game1-group {
+    max-width: 768px;
+    margin: 3rem auto;
+  }
+  .game1-group__content {
+    font-size: 3rem;
   }
 }

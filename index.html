@@ -47,7 +47,7 @@
           <ul class="list nav__list collapsible__content">
             <li class="nav__item"><a href="/company/story.html">Story</a></li>
             <li class="nav__item">
-              <a href="/company/nerd.html">Nerd News</a>
+              <a href="/company/game.html">Nerd News</a>
             </li>
             <li class="nav__item"><a href="/company/faq.html">FAQ</a></li>
             <li class="nav__item">
@@ -57,10 +57,14 @@
               <a href="/company/geek.html">Geek Boutique</a>
             </li>
             <li class="nav__item">
-              <a href="/company/geek.html">Breakroom Discount</a>
+              <a href="https://www.hyperfizzics.com/break"
+                >Breakroom Discount</a
+              >
             </li>
             <li class="nav__item">
-              <a href="/company/geek.html">Sponsor Ship</a>
+              <a href="https://www.hyperfizzics.com/the-sponsor-ship"
+                >Sponsor Ship</a
+              >
             </li>
           </ul>
         </nav>
@@ -80,7 +84,7 @@
           </p>
           <a
             href="/company/info-page.html"
-            class="btn btn--accent btn--stretched"
+            class="btn btn--accent btn--stretched hero-btn-padding"
             >Get Started</a
           >
         </header>
@@ -92,21 +96,20 @@
       <a href="/company/info-page.html" class="link-arrow link-arrow-hiring"
         >Learn More</a
       >
-      <span class="now--hiring">NOW HIRING!!!</span> Join The HyperFizzics®
-      Family
+      <span class="now--hiring">NOW HIRING!!!</span>
+      <span class="join--hyperfizzics"> Join The HyperFizzics® Family </span>
     </div>
-
     <!------------------------------------Hero2-------------------------------------->
     <section class="block hero2">
       <div class="container grid grid--1x2">
-        <div class="hero2">
-          <img src="image/hero1.jpg" alt="" />
+        <div class="hero2 hide">
+          <img class="hide" src="image/hero1.jpg" alt="" />
         </div>
         <div class="hero4">
-          <div class="hero41"><img src="image/hero2.jpg" alt="" /></div>
-          <div class="hero41"><img src="image/hero4.jpg" alt="" /></div>
-          <div class="hero41"><img src="image/hero5.jpg" alt="" /></div>
-          <div class="hero41"><img src="image/hero7.jpg" alt="" /></div>
+          <div class="hero41 hide"><img src="image/hero2.jpg" alt="" /></div>
+          <div class="hero41 hide"><img src="image/hero4.jpg" alt="" /></div>
+          <div class="hero41 hide"><img src="image/hero5.jpg" alt="" /></div>
+          <div class="hero41 hide"><img src="image/hero7.jpg" alt="" /></div>
         </div>
       </div>
     </section>
@@ -117,11 +120,10 @@
         >View the latest updates</a
       >
     </div>
-
     <!------------------------------------Introduction------------------------------------>
     <div class="intro">
       <div class="intro1 container">
-        <h2 class="intro__heading">
+        <h2 class="intro__heading hide">
           <span class="intro__headingprimary">The Energy Drink,</span>
           <span class="intro__headingsecondary"> "For The Nerd In You" </span>
         </h2>
@@ -141,23 +143,24 @@
     <!------------------------------------Plans------------------------------------>
     <!--------------------------------Plans_block---------------------------------------------->
 
-    <section class="block block-plans container">
+    <section class="container">
       <div class="grid grid--1x3">
         <div class="plan" data-aos="flip-left">
           <div class="card card--secondary">
             <header class="card__header">
-              <h3 class="plan__name">Value</h3>
+              <h3 class="plan__name xoverflow">Value</h3>
               <span class="plan__price">$576</span>
               <span class="plan__billing-cycle">/Six Cases</span>
               <span class="badge badge--secondary badge--small">15% OFF</span>
               <span class="plan__description">HyperFizzics® Energy Elixir</span>
             </header>
             <div class="card__body">
-              <img src="image/product1.jpg" alt="" />
+              <div class="plan---image">
+                <img src="image/product1.jpg" alt="" />
+              </div>
               <p class="plan__warning">
                 all case orders require a 3 week turnaround to produce
               </p>
-
               <a href="/company/info-page.html"
                 ><button class="btn btn--outline btn--block">Buy Now</button></a
               >
@@ -167,36 +170,38 @@
         <div class="plan plan--popular" data-aos="flip-up">
           <div class="card card--primary">
             <header class="card__header">
-              <h3 class="plan__name">Most Popular</h3>
+              <h3 class="plan__name xoverflow">Most Popular</h3>
               <span class="plan__price">$288</span>
               <span class="plan__billing-cycle">/Three Cases</span>
               <span class="badge badge--primary badge--small">10% OFF</span>
               <span class="plan__description">HyperFizzics® Energy Elixir</span>
             </header>
             <div class="card__body">
-              <img src="image/product1.jpg" alt="" />
+              <div class="plan---image">
+                <img class="plan---rimage" src="image/product1.jpg" alt="" />
+              </div>
               <p class="plan__warning">
                 all case orders require a 3 week turnaround to produce
               </p>
-
               <a href="/company/info-page.html"
                 ><button class="btn btn--outline btn--block">Buy Now</button></a
               >
             </div>
           </div>
         </div>
-
         <div class="plan" data-aos="flip-left">
           <div class="card card--secondary">
             <header class="card__header">
-              <h3 class="plan__name">Value Plus</h3>
+              <h3 class="plan__name xoverflow">Value Plus</h3>
               <span class="plan__price">$864</span>
               <span class="plan__billing-cycle">/Nine Cases</span>
               <span class="badge badge--secondary badge--small">20% OFF</span>
               <span class="plan__description">HyperFizzics® Energy Elixir</span>
             </header>
             <div class="card__body">
-              <img src="image/product1.jpg" alt="" />
+              <div class="plan---image">
+                <img src="image/product1.jpg" alt="" />
+              </div>
               <p class="plan__warning">
                 all case orders require a 3 week turnaround to produce
               </p>
@@ -208,6 +213,7 @@
         </div>
       </div>
     </section>
+
     <!------------------------------------Payment-------------------------------------->
     <div class="payment">
       <img src="image/payment.png" alt="" />
@@ -216,12 +222,17 @@
     <div class="small--info covid container">
       Some of the greatest scientific inventions are created by accident…
     </div>
-
     <!----------------------hero10------------------------->
-    <div class="hero10 container">
-      <div class="grid grid--2x2">
-        <img src="image/hero10.3.jpg" alt="" data-aos="fade-right" />
-        <article data-aos="fade-left">
+    <div class="hero10">
+      <div class="grid--2x2">
+        <div class="hero10__image10">
+          <img
+            src="image/hero10.3.jpg"
+            alt=" HyperFizzics Owners"
+            data-aos="fade-right"
+          />
+        </div>
+        <article class="hero10__article" data-aos="fade-up">
           <h2 class="hero10__heading">It ALL Started WITH A FIZZ</h2>
           <p class="hero10__content">
             Crafted with just the right mix of tried-and-true rejuvenating
@@ -236,7 +247,7 @@
             revitalization after a long day at the lab? Try HyperFizzics!
           </p>
         </article>
-        <article data-aos="fade-up">
+        <article class="hero10__article" data-aos="fade-left">
           <h2 class="hero10__heading">The HyperFizzics Story</h2>
           <p class="hero10__content">
             One night while working on a potion for time travel, after-hours in
@@ -252,7 +263,13 @@
             time.
           </p>
         </article>
-        <img src="image/hero10.2.jpg" alt="" data-aos="fade-down" />
+        <div class="hero10__image10">
+          <img
+            src="image/hero10.2.jpg"
+            alt="A HyperFizzics customers"
+            data-aos="fade-down"
+          />
+        </div>
       </div>
     </div>
     <!--------------------------------------signup------------------------------------------------>
@@ -283,12 +300,11 @@
         <img src="/image/doc-icon.png" alt="" />
       </div>
     </div>
-
     <!------------------------------------fun time---------------------------------------------->
     <div class="container fun-time grid grid--1x2">
       <div class="fun1" data-aos="fade-down-right">
-        <h2>The HyperFizzics Story</h2>
-        <p>
+        <h2 class="fun-time__heading xoverflow">The HyperFizzics Story</h2>
+        <p class="fun-time__content">
           However, to his astonishment, he discovered that the formula he
           crafted was a wonderful brain booster and energy elixir.
         </p>
@@ -304,8 +320,8 @@
     <div class="seattle">
       <div class="seattle__content">
         <div class="seattle__header">
-          <h2 class="seattle__heading">Welcome To Seattle</h2>
-          <h2 class="seattle__heading">
+          <h2 class="seattle__heading xoverflow">Welcome To Seattle</h2>
+          <h2 class="seattle__heading xoverflow">
             Home of HyperFizzics® Corporate headquarters
           </h2>
         </div>
@@ -313,44 +329,48 @@
         <!-- <a href="" class="btn btn--secondary seattle__link">Learn more</a>--->
       </div>
     </div>
-
     <!------------------------------------testimonials-Block---------------------------------------------->
-    <section class="block">
-      <header class="block__header">
-        <h2>What our Customers are Saying</h2>
-        <p>
-          "The goal as a company is to have customer service that is not just
-          the best but legendary"
-        </p>
-        <p>Sam Walton</p>
-      </header>
-      <div class="container" data-aos="zoom-in-left">
-        <div class="card testimonial">
-          <div class="grid grid--1x2">
-            <div class="testimonial__image">
-              <img src="image/testimonial.jpg" alt="A happy customer" />
-            </div>
-            <blockquote class="quotes">
-              <p class="quotes__text">
-                Guys. THIS stuff. Wow. No Joke. Let me be straight up and
-                explain why I prefer HyperFizzcs to other energy drinks: It
-                doesn't make me feel like I have a malt liquor hangover a couple
-                hours after I drink it like so many of these other energy drinks
-                on the market. This is an energy drink for purpose driven souls
-                looking to rock the galaxy day in and day out like true super
-                stars. I JUST slammed one as I was typing this and now I'm ready
-                to go down into the basement and build that time machine I've
-                always dreamed of and change the fate of our world!!!
-              </p>
-              <footer>
-                <div class="media">
-                  <div class="media__body">
-                    <h3 class="media__title quotes__author">Damian Lahey</h3>
-                    <p class="quotes__company">Amazon Review</p>
+    <section class="container block">
+      <div class="testimonial-xxx">
+        <header class="block__header">
+          <h2 class="xoverflow">What our Customers are Saying</h2>
+          <p class="xoverflow">
+            "The goal as a company is to have customer service that is not just
+            the best but legendary"
+          </p>
+          <p>Sam Walton</p>
+        </header>
+        <div class="container" data-aos="zoom-in-left">
+          <div class="card testimonial">
+            <div class="grid grid--1x2">
+              <div class="testimonial__image">
+                <img src="image/testimonial.jpg" alt="A happy customer" />
+              </div>
+              <blockquote class="quotes quotes-xxx">
+                <p class="quotes__text">
+                  Guys. THIS stuff. Wow. No Joke. Let me be straight up and
+                  explain why I prefer HyperFizzcs to other energy drinks: It
+                  doesn't make me feel like I have a malt liquor hangover a
+                  couple hours after I drink it like so many of these other
+                  energy drinks on the market. This is an energy drink for
+                  purpose driven souls looking to rock the galaxy day in and day
+                  out like true super stars. I JUST slammed one as I was typing
+                  this and now I'm ready to go down into the basement and build
+                  that time machine I've always dreamed of and change the fate
+                  of our world!!!
+                </p>
+                <footer>
+                  <div class="media">
+                    <div class="media__body">
+                      <h3 class="media__title quotes__author xoverflow">
+                        Damian Lahey
+                      </h3>
+                      <p class="quotes__company">Amazon Review</p>
+                    </div>
                   </div>
-                </div>
-              </footer>
-            </blockquote>
+                </footer>
+              </blockquote>
+            </div>
           </div>
         </div>
       </div>
@@ -358,9 +378,13 @@
     <!------------------------------------Introduction2------------------------------------>
     <div class="intro intro2">
       <div class="intro1 container">
-        <h2 class="intro__heading">
-          <span class="intro__headingprimary">The Energy Drink,</span>
-          <span class="intro__headingsecondary"> "For The Nerd In You" </span>
+        <h2 class="intro__heading hide">
+          <span class="intro__headingprimary yoverflowhide"
+            >The Energy Drink,</span
+          >
+          <span class="intro__headingsecondary yoverflowhide">
+            "For The Nerd In You"
+          </span>
         </h2>
         <p class="intro__content">
           Let's keep it real, not everyone guzzling an energy drink is trying to
@@ -371,44 +395,62 @@
         </p>
       </div>
       <div class="intro__btn">
-        <a href="/company/nerd.html" class="btn btn--secondary">Nerds Only</a>
+        <a href="/company/game.html" class="btn btn--secondary">Nerds Only</a>
       </div>
     </div>
     <!------------------------------------owners------------------------------------>
 
-    <div class="container owneremail">
-      <p class="owneremail__content">SLS@HyperFizzics.com</p>
-      <p class="owneremail__content">RDS3@HyperFizzics.com</p>
-    </div>
-    <div class="owners-container">
-      <div class="container grid grid--1x3 owners">
+    <div class="container owners owneremail">
+      <div class="owner1">
         <img src="/image/owner-1.png" alt="hyperfizzic owner1" />
-        <div class="owners__intro grid">
-          <h2 class="owners__heading">Meet the Nerdz of HyperFizzics</h2>
-          <button class="btn btn--outline">Join us</button>
+        <p class="owneremail__content">SLS@HyperFizzics.com</p>
+      </div>
+
+      <div class="owners__intro">
+        <h2 class="owners__heading">Meet the Nerdz of HyperFizzics</h2>
+
+        <div class="owner-btn-flex">
+          <a href="https://www.facebook.com/HyperFizzics"
+            ><button class="btn btn--outline owner-btn">Join us</button></a
+          >
         </div>
-        <img src="/image/owner-2.png" alt="hyperfizzic owner2" />
+      </div>
+
+      <div class="owner1">
+        <img src="/image/owner-2.png" alt="hyperfizzic owner1" />
+        <p class="owneremail__content">SLS@HyperFizzics.com</p>
       </div>
     </div>
-
     <!------------------------------------Footer------------------------------------>
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
-        <section class="collapsible collapsible--expanded footer__section">
+        <section
+          class="collapsible collapsible--expanded footer__section footer-pad"
+        >
           <header class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Contact Us</h2>
 
-            <div class="footer--icon collapsible__chevron">
-              <img src="image/icon-beaker60.png" alt="" />
+            <div class="footer--icon collapsible__chevron hide">
+              <img class="" src="image/icon-beaker60.png" alt="" />
             </div>
           </header>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">Shethy Smith</a></li>
-              <li><a href="#">David Smith</a></li>
+              <li>
+                <a href="https://www.facebook.com/shethysmith">Shethy Smith</a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/richard.david.smithiii"
+                  >David Smith</a
+                >
+              </li>
               <li><a href="#">Rex Smith</a></li>
               <li><a href="#">Joe Smith</a></li>
-              <li><a href="#">Brandon Rouse</a></li>
+              <li>
+                <a href="https://www.facebook.com/brandon.rouse.98/"
+                  >Brandon Rouse</a
+                >
+              </li>
             </ul>
           </div>
         </section>
@@ -416,8 +458,8 @@
           <header class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Follow Us</h2>
 
-            <div class="footer--icon collapsible__chevron">
-              <img src="image/icon-beaker60.png" alt="" />
+            <div class="footer--icon collapsible__chevron hide">
+              <img class="hide" src="image/icon-beaker60.png" alt="" />
             </div>
           </header>
           <div class="collapsible__content">
@@ -454,6 +496,7 @@
         </section>
       </div>
     </footer>
+    <!------------------------------------JavaScript Only-------------------------------------->
 
     <script src="/js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

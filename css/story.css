@@ -11,6 +11,7 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 /*Typography---------------------------------------------------------*/
 ::selection {
@@ -819,24 +820,47 @@ a {
 
 .pilot {
   background: #fff;
-  padding: 2rem 6rem;
+  padding: 1rem;
   border-radius: 10px;
-  margin: 5rem auto;
+  margin: 2rem;
+  overflow: hidden;
+  width: 100%;
 }
 .pilot__heading {
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  overflow: visible;
 }
 /*hfstory------------------------------------------------*/
 .hfstory {
   background-color: #fff;
   border-radius: 10px;
+  margin: 2rem;
 }
-.hfstory__container {
-  padding: 7rem;
-}
+
 .hfstory__heading {
   text-align: center;
+  overflow: visible;
 }
 .hfstory__content {
-  line-height: 5rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  color: #1b0760;
+}
+.hfstory__container {
+  padding: 1rem;
+}
+.pilot2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1024px) {
+  .hfstory__container {
+    margin: 0 auto;
+  }
+  .hfstory__content {
+    font-size: 2.5rem;
+    padding: 2rem;
+  }
 }

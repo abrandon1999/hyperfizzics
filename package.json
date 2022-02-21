@@ -6,9 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrandon1999/hyperfizzics.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abrandon1999/hyperfizzics/issues"
+  },
+  "homepage": "https://github.com/abrandon1999/hyperfizzics#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   }

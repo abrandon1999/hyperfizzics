@@ -586,7 +586,7 @@ a {
 .card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #444;
-  overflow: hidden;
+  overflow: visible;
 }
 .card__header,
 .card__body {
@@ -606,7 +606,10 @@ a {
 .card--secondary .badge--secondary {
   background-color: #02cdf1;
 }
-/*plan------------------------------------------------------*/
+/*plan------------------------------------------------*/
+.viz {
+  overflow: visible;
+}
 .plan {
   margin: 3rem;
   transition: transform 0.2s ease-out;
@@ -617,15 +620,18 @@ a {
   margin: 0;
   font-weight: 500;
   font-size: 2.4rem;
+  overflow: visible;
 }
 .plan__price {
   font-size: 2rem;
+  overflow: visible;
 }
 .plan__billing-cycle {
   font-size: 1.5rem;
   font-weight: 300;
   opacity: 0.8;
   margin-right: 1rem;
+  overflow: visible;
 }
 .plan__description {
   font-size: 1.4rem;

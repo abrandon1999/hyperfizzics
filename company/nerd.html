@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nerd News-HyperFizzic</title>
+    <title>HyperFizzics</title>
     <!-----------------font-family: 'Grandstander', cursive;------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,6 +31,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <!------------------------------------Navigation-------------------------------------->
   <body>
@@ -45,47 +46,62 @@
           </svg>
           <ul class="list nav__list collapsible__content">
             <li class="nav__item"><a href="/index.html">Home</a></li>
-            <li class="nav__item"><a href="#">Nerd News</a></li>
+            <li class="nav__item">
+              <a href="/company/game.html">Nerd News</a>
+            </li>
             <li class="nav__item"><a href="/company/faq.html">FAQ</a></li>
-            <li class="nav__item"><a href="#">HyperFotos</a></li>
+            <li class="nav__item">
+              <a href="/company/geek.html">HyperFotos</a>
+            </li>
             <li class="nav__item">
               <a href="/company/geek.html">Geek Boutique</a>
             </li>
-            <li class="nav__item"><a href="#">Breakroom Discount</a></li>
-            <li class="nav__item"><a href="#">Sponsor Ship</a></li>
+            <li class="nav__item">
+              <a href="https://www.hyperfizzics.com/break"
+                >Breakroom Discount</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="https://www.hyperfizzics.com/the-sponsor-ship"
+                >Sponsor Ship</a
+              >
+            </li>
           </ul>
         </nav>
       </header>
     </div>
 
-    <div class="container nerd__header">
-      <h2>More like 80's Trivia Question</h2>
-      <h2>Yah, I know nothing about nerd stuff, and i'm getting sleepy</h2>
-      <h2>So down below are videos about nerds</h2>
-    </div>
-    <div class="container nerd__youtube grid grid--1x2">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/TH_-icCHGAg"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/kEpI8avdr88"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <h2>
-        Sorry, I can't give you a score because i don't know Javascript yet
-      </h2>
+    <div class="nerd1">
+      <div class="container nerd__header">
+        <h2 class="viz nerd__heading">More like 80's Trivia Question</h2>
+        <h2 class="viz nerd__heading">
+          Yah, I know nothing about nerd stuff, and i'm getting sleepy
+        </h2>
+        <h2 class="nerd__heading">So down below are videos about nerds</h2>
+      </div>
+      <div class="container nerd__youtube">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/TH_-icCHGAg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/kEpI8avdr88"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h2 class="viz nerd__heading">
+          Sorry, I can't give you a score because i don't know Javascript yet
+        </h2>
+      </div>
     </div>
 
     <script src="/js/main.js"></script>

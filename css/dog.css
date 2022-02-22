@@ -27,7 +27,7 @@ body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
-  background: url(/image/protruding-squares.svg);
+  background: url(/image/large-triangles.svg);
   color: var(--color-headings);
 }
 h1,
@@ -209,8 +209,6 @@ a {
 @media screen and (min-width: 768px) {
   .nav {
     width: 100%;
-    z-index: 999;
-    opacity: 1;
   }
   .nav__toggler {
     display: none;
@@ -353,28 +351,20 @@ a {
 }
 /*Defaults------------------------------------------------------*/
 /*Defaults------------------------------------------------------*/
-.info-page-header1 {
+.rabbit {
+  margin: 1rem;
+  padding: 1rem;
+}
+.rabbit__heading {
   font-size: 2rem;
   text-align: center;
 }
-.info-page-header2 {
-  font-size: 3rem;
-  text-align: center;
+.rabbit__image {
+  max-width: 300px;
 }
-.customer-bkgd {
-  margin: 2rem;
-}
-.customer-bkgd label {
-  display: block;
-}
-.limit {
+.rabbit-image-container {
   display: flex;
   justify-content: center;
-}
-.info-content-warning {
-  text-align: center;
-  opacity: 0.8;
-  font-size: 1.5rem;
 }
 .viz {
   overflow: visible;
